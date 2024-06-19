@@ -1,0 +1,41 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  min-width: 350px;
+  max-width: 650px;
+  margin-bottom: 15px;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+.task-checkbox {
+  height: 18px;
+  width: 18px;
+}
+
+.task-label {
+  flex-grow: 1;
+  border-left: 8px solid #096f92;
+  background-color: #e6f6ff;
+  border-radius: 5px;
+  padding: 4px 12px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-status-complete {
+  text-decoration: line-through;
+  background-color: rgb(216, 213, 244);
+  background-color: #e1eaf0;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  padding-top: 7px;
+  font-size: 16px;
+}
